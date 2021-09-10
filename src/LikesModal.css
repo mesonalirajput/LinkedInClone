@@ -1,0 +1,63 @@
+.likesModal {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.likesModal__body {
+  display: flex;
+  width: 630px;
+  height: fit-content;
+  max-height: 400px;
+  /* height: 400px; */
+  border: 1px solid lightgray;
+  border-top-left-radius: 10px;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+  box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+}
+.likesModal__top {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.likesMOdal__top__heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.likesMOdal__top__heading > h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.likesModal__top__closeIcon {
+  font-size: 30px !important;
+  padding: 5px;
+  cursor: pointer;
+}
+.likesModal__top__closeIcon:hover {
+  background-color: rgb(233, 233, 233);
+  border-radius: 30px;
+}
+.likesModal__top__likeIcon {
+  margin-left: 40px !important;
+  font-size: 30px !important;
+  color: #0c73cf !important;
+}
+.likesModal__bottom {
+  display: flex;
+  padding: 35px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

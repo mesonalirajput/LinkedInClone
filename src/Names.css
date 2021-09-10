@@ -1,0 +1,107 @@
+.names {
+  height: 49rem;
+}
+.names__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.names__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 135px;
+  justify-content: space-evenly;
+}
+.names__top__logo {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.names__top__linked {
+  color: #0c73cf;
+}
+.names__top__linked > b {
+  font-size: 32px;
+}
+
+.names__top__in {
+  background-color: #0c73cf;
+  padding: 5px;
+  /* margin-top: 5px; */
+  justify-content: center;
+  color: white;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.names__top__in > b {
+  font-size: 32px;
+}
+.names__top__heading > p {
+  font-size: 30px;
+}
+
+.names__middle {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.names__middle > form {
+  display: flex;
+  flex-direction: column;
+}
+.names__middle__input {
+  display: flex;
+  flex-direction: column;
+}
+.names__middle__input > span {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 5px;
+}
+.names__middle__input > input {
+  background-color: white;
+  width: 320px;
+  height: 35px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+.names__middle__input > input:hover {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.names__middle__input > input:focus {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.names__middle > form > button {
+  width: 334px;
+  height: 47px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0c73cf;
+  border-radius: 5px;
+  border: 1px solid #0c73cf;
+  border-radius: 50px;
+}
+.names__middle > form > button:hover {
+  /* -webkit-box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 1);
+    box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 1); */
+  /* color: black; */
+  background-color: #005baa;
+}

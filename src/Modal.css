@@ -1,0 +1,167 @@
+.modall {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  overflow-y: scroll;
+}
+.modall__body {
+  display: flex;
+  width: 595px;
+  height: fit-content;
+  border-top-left-radius: 10px;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+  box-shadow: 0px 0px 5px 0px rgba(148, 148, 148, 1);
+}
+.modall__top {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  padding: 10px;
+  padding-left: 15px;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  /* margin-bottom: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modall__top > p {
+  font-size: 22px;
+}
+.modall__top__icon {
+  font-size: 25px !important;
+  padding: 5px;
+}
+.modall__top__icon:hover {
+  background-color: rgb(233, 233, 233);
+  border-radius: 30px;
+}
+.modall__middle {
+  padding: 50px;
+  padding-bottom: 70px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+}
+.modall__middle .brainhub-file-input__label {
+  font-size: 17px;
+  color: #0c73cf;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.modall__middle .brainhub-file-input__wrapper {
+  width: auto;
+}
+.modall__middle .brainhub-drop-area__button {
+  padding: 10px;
+  color: #0c73cf;
+  font-size: 15px;
+}
+.modall__middle .brainhub-drop-area__button:hover {
+  background-color: #d5ebff;
+  border-radius: 10px;
+  /* padding: 10px; */
+}
+.modall__middle .brainhub-drop-area {
+  height: 0px;
+}
+.modall__middle .brainhub-file-info {
+  /* width: 100%; */
+  /* overflow-y: scroll; */
+  max-height: 323px;
+  display: flex !important;
+  flex-direction: column;
+}
+.modall__middle .brainhub-file-info__thumbnail {
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 380px;
+}
+.modall__middle .brainhub-file-info__image {
+  max-height: none;
+}
+.modall__middle .brainhub-crop-tool__image,
+.brainhub-image-rotator__image {
+  padding: 15px;
+}
+.modall__middle .brainhub-crop-tool__button--save,
+.brainhub-image-rotator__button--save {
+  background-color: #0c73cf;
+}
+.modall__middle .brainhub-file-info__metadata__info_name {
+  font-size: 17px;
+}
+/* .modal__fileinput {
+  position: absolute;
+  opacity: 0;
+  margin-left: 15px;
+  cursor: pointer;
+  margin-top: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+/* .modall__imageInput > p:hover {
+  background-color: #d5ebff;
+  border-radius: 10px;
+  padding: 10px;
+} */
+/* .modall__imageInput > input:hover {
+  background-color: #d5ebff;
+  border-radius: 10px;
+  padding: 10px;
+} */
+
+.modall__bottom {
+  padding: 10px;
+  padding-right: 20px;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.modall__cancel {
+  margin-left: 10px;
+  width: 70px;
+  border-radius: 30px;
+  border: 1px;
+  height: 36px;
+  background-color: white;
+  border: 1px solid #0c73cf;
+  color: #0c73cf;
+  font-size: 16px;
+  cursor: pointer;
+}
+.modall__cancel:hover {
+  background-color: #d5ebff;
+  border: 2px solid #0c73cf;
+}
+.modall__done {
+  margin-left: 10px;
+  width: 70px;
+  border-radius: 30px;
+  border: 1px;
+  height: 36px;
+  background-color: #0c73cf;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.modall__done:hover {
+  background-color: #005baa;
+}
+.modall__button:hover {
+  background-color: #005baa;
+}
