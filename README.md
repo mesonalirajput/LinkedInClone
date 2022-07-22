@@ -1,6 +1,7 @@
 # LinkedInClone
 
-Screenshots of the project
+## Screenshots
+
 ![Screenshot from 2022-05-28 22-45-00](https://user-images.githubusercontent.com/80307692/170839291-25151f55-4163-4a49-842d-9699a0ef70eb.png)
 ![Screenshot from 2022-05-28 22-49-17](https://user-images.githubusercontent.com/80307692/170839295-84b87676-2e5e-44e3-ac89-dde11714a565.png)
 ![Screenshot from 2022-05-28 22-49-37](https://user-images.githubusercontent.com/80307692/170839298-c48413b6-b5f1-461e-bb36-317decc1aac5.png)
